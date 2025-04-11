@@ -17,6 +17,11 @@ export default class Jatekter{
     }
 
     
+    getAllapotok(){
+        return this.#allapotok;
+    }
+
+
     ujrakezd()
     {
         let elem = document.getElementsByClassName("ujra")[0];
